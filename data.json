@@ -1,0 +1,387 @@
+{
+  "weightAndHeight": {
+    "translate": "身高体重",
+    "weight": {
+      "translate": "体重",
+      "value": 78,
+      "referenceRange": [0, 200],
+      "unit": "kg",
+      "Tips": "无异常"
+    },
+    "height": {
+      "translate": "身高",
+      "value": 178,
+      "referenceRange": [50, 300],
+      "unit": "cm",
+      "Tips": "无异常"
+    },
+    "BMI": {
+      "translate": "体重指数BMI",
+      "value": 19,
+      "referenceRange": [18.5, 24],
+      "Tips": "无异常"
+    },
+    "summary": "小结"
+  },
+  "bloodPressure": {
+    "translate": "血压(内科常规)",
+    "systolicPressure": {
+      "translate": "收缩压",
+      "value": 94,
+      "referenceRange": [90, 140],
+      "unit": "mmHg",
+      "Tips": "无异常"
+    },
+    "diastolicPressure": {
+      "translate": "舒张压",
+      "value": 73,
+      "referenceRange": [60, 90],
+      "unit": "mmHg",
+      "Tips": "无异常"
+    },
+    "summary": "无异常"
+  },
+  "electrocardiogram": {
+    "translate": "心电图",
+    "electrocardiogram": {
+      "translate": "心电图",
+      "value": "心电轴右偏",
+      "referenceRange": "未见异常"
+    },
+    "summary": "无异常"
+  },
+  "BModeUltrasonography": {
+    "translate": "腹部B超(肝胆胰脾肾)",
+    "LiverBilePancreasSpleenKidney": {
+      "translate": "肝胆胰脾肾",
+      "value": "正常",
+      "referenceRange": "未见异常"
+    },
+    "summary": "无异常"
+  },
+  "colorThyroidUltrasound": {
+    "translate": "甲状腺彩超",
+    "ThyroidBUltrasound": {
+      "translate": "甲状腺B超",
+      "value": "正常",
+      "referenceRange": "未见异常"
+    },
+    "summary": "无异常"
+  },
+  "chestCT": {
+    "translate": "胸部CT",
+    "chestCT": {
+      "translate": "胸部CT",
+      "value": "正常",
+      "referenceRange": "未见异常"
+    }
+  },
+  "bloodRoutineExamination": {
+    "translate": "血常规",
+    "whiteBloodCellCount": {
+      "translate": "白细胞计数",
+      "value": 7.28,
+      "referenceRange": [3.5, 9.5],
+      "unit": "X10^9/L"
+    },
+    "redBloodCellCount": {
+      "translate": "红细胞计数",
+      "value": 7.28,
+      "referenceRange": [3.5, 9.5],
+      "unit": "X10^9/L"
+    },
+    "neutrophilCount": {
+      "translate": "中性粒细胞计数",
+      "value": 7.28,
+      "referenceRange": [3.5, 9.5],
+      "unit": "X10^9/L"
+    },
+    "neutralCellRatio": {
+      "translate": "中性细胞比率",
+      "value": 7.28,
+      "referenceRange": [3.5, 9.5],
+      "unit": "X10^9/L"
+    },
+    "lymphocyteCount": {
+      "translate": "淋巴细胞计数",
+      "value": 7.28,
+      "referenceRange": [3.5, 9.5],
+      "unit": "X10^9/L"
+    },
+    "lymphocyteRatio": {
+      "translate": "淋巴细胞比率",
+      "value": 7.28,
+      "referenceRange": [3.5, 9.5],
+      "unit": "X10^9/L"
+    },
+    "monocyteCount": {
+      "translate": "单核细胞计数",
+      "value": 7.28,
+      "referenceRange": [3.5, 9.5],
+      "unit": "X10^9/L"
+    },
+    "monocyteRatio": {
+      "translate": "单核细胞比率",
+      "value": 7.28,
+      "referenceRange": [3.5, 9.5],
+      "unit": "X10^9/L"
+    },
+    "eosinophilicCounts": {
+      "translate": "嗜酸性粒细胞计数",
+      "value": 7.28,
+      "referenceRange": [3.5, 9.5],
+      "unit": "X10^9/L"
+    },
+    "eosinophilicRatio": {
+      "translate": "嗜酸性粒细胞比率",
+      "value": 7.28,
+      "referenceRange": [3.5, 9.5],
+      "unit": "X10^9/L"
+    },
+    "basophilCount": {
+      "translate": "嗜碱性粒细胞计数",
+      "value": 7.28,
+      "referenceRange": [3.5, 9.5],
+      "unit": "X10^9/L"
+    },
+    "basophilicGranulocyteRatio": {
+      "translate": "嗜碱性粒细胞比率",
+      "value": 7.28,
+      "referenceRange": [3.5, 9.5],
+      "unit": "X10^9/L"
+    },
+    "erythrocyteDistributionWidthCV": {
+      "translate": "红细胞分布宽度CV",
+      "value": 7.28,
+      "referenceRange": [3.5, 9.5],
+      "unit": "X10^9/L"
+    },
+    "erythrocyteDistributionWidthSD": {
+      "translate": "红细胞分布宽度SD",
+      "value": 7.28,
+      "referenceRange": [3.5, 9.5],
+      "unit": "X10^9/L"
+    },
+    "meanErythrocyteVolume": {
+      "translate": "红细胞平均体积",
+      "value": 7.28,
+      "referenceRange": [3.5, 9.5],
+      "unit": "X10^9/L"
+    },
+    "hematocrit": {
+      "translate": "红细胞压积",
+      "value": 7.28,
+      "referenceRange": [3.5, 9.5],
+      "unit": "X10^9/L"
+    },
+    "hemoglobin": {
+      "translate": "血红蛋白",
+      "value": 7.28,
+      "referenceRange": [3.5, 9.5],
+      "unit": "X10^9/L"
+    },
+    "averageHemoglobinVolume": {
+      "translate": "平均血红蛋白量",
+      "value": 7.28,
+      "referenceRange": [3.5, 9.5],
+      "unit": "X10^9/L"
+    },
+    "averageHemoglobinConcentration": {
+      "translate": "平均血红蛋白浓度",
+      "value": 7.28,
+      "referenceRange": [3.5, 9.5],
+      "unit": "X10^9/L"
+    },
+    "plateletCount": {
+      "translate": "血小板计数",
+      "value": 7.28,
+      "referenceRange": [3.5, 9.5],
+      "unit": "X10^9/L"
+    },
+    "plateletAccumulation": {
+      "translate": "血小板压积",
+      "value": 7.28,
+      "referenceRange": [3.5, 9.5],
+      "unit": "X10^9/L"
+    },
+    "meanPlateletVolume": {
+      "translate": "平均血小板体积",
+      "value": 7.28,
+      "referenceRange": [3.5, 9.5],
+      "unit": "X10^9/L"
+    },
+    "largePlateletRatio": {
+      "translate": "大型血小板比率",
+      "value": 7.28,
+      "referenceRange": [3.5, 9.5],
+      "unit": "X10^9/L"
+    },
+    "summary": "正常"
+  },
+  "basicMetabolicPanel": {
+    "translate": "小生化(肝肾功能 血糖血脂)",
+    "glutamicPyruvicTransaminase": {
+      "translate": "谷丙转氨酶",
+      "value": 16,
+      "referenceRange": [0, 50],
+      "unit": "U/L"
+    },
+    "glutamicOxalaceticTransaminase": {
+      "translate": "谷草转氨酶",
+      "value": 16,
+      "referenceRange": [0, 50],
+      "unit": "U/L"
+    },
+    "totalProtein": {
+      "translate": "总蛋白",
+      "value": 16,
+      "referenceRange": [0, 50],
+      "unit": "U/L"
+    },
+    "albumin": {
+      "translate": "白蛋白",
+      "value": 16,
+      "referenceRange": [0, 50],
+      "unit": "U/L"
+    },
+    "globulin": {
+      "translate": "球蛋白",
+      "value": 16,
+      "referenceRange": [0, 50],
+      "unit": "U/L"
+    },
+    "AGRatio": {
+      "translate": "白球比",
+      "value": 16,
+      "referenceRange": [0, 50],
+      "unit": "U/L"
+    },
+    "totalBilirubin": {
+      "translate": "总胆红素",
+      "value": 16,
+      "referenceRange": [0, 50],
+      "unit": "U/L"
+    },
+    "directBilirubin": {
+      "translate": "直接胆红素",
+      "value": 16,
+      "referenceRange": [0, 50],
+      "unit": "U/L"
+    },
+    "indirectBilirubin": {
+      "translate": "间接胆红素",
+      "value": 16,
+      "referenceRange": [0, 50],
+      "unit": "U/L"
+    },
+    "alkalinePhosphatase": {
+      "translate": "碱性胆红素",
+      "value": 16,
+      "referenceRange": [0, 50],
+      "unit": "U/L"
+    },
+    "lactateDehydrogenase": {
+      "translate": "乳酸脱氢酶",
+      "value": 16,
+      "referenceRange": [0, 50],
+      "unit": "U/L"
+    },
+    "GammaGlutamyltransferase": {
+      "translate": "Y-谷氨酰氨转肽酶",
+      "value": 16,
+      "referenceRange": [0, 50],
+      "unit": "U/L"
+    },
+    "creatineKinase": {
+      "translate": "磷酸肌酸激酶",
+      "value": 16,
+      "referenceRange": [0, 50],
+      "unit": "U/L"
+    },
+    "creatineKinaseMB": {
+      "translate": "肌酸激酶同功酶(CK-MB)",
+      "value": 16,
+      "referenceRange": [0, 50],
+      "unit": "U/L"
+    },
+    "totalSerumBileAcids": {
+      "translate": "血清总胆汁酸",
+      "value": 16,
+      "referenceRange": [0, 50],
+      "unit": "U/L"
+    },
+    "bloodUreaNitrogen": {
+      "translate": "尿素氮",
+      "value": 16,
+      "referenceRange": [0, 50],
+      "unit": "U/L"
+    },
+    "creatinine": {
+      "translate": "肌酐",
+      "value": 16,
+      "referenceRange": [0, 50],
+      "unit": "U/L"
+    },
+    "uricAcid": {
+      "translate": "尿酸",
+      "value": 16,
+      "referenceRange": [0, 50],
+      "unit": "U/L"
+    },
+    "bloodGlucose": {
+      "translate": "血葡萄糖",
+      "value": 16,
+      "referenceRange": [0, 50],
+      "unit": "U/L"
+    },
+    "totalCholesterol": {
+      "translate": "总胆固醇",
+      "value": 16,
+      "referenceRange": [0, 50],
+      "unit": "U/L"
+    },
+    "triglycerides": {
+      "translate": "甘油三酯",
+      "value": 16,
+      "referenceRange": [0, 50],
+      "unit": "U/L"
+    },
+
+    "highDensityLipoproteinCholesterol": {
+      "translate": "高密度脂蛋白",
+      "value": 16,
+      "referenceRange": [0, 50],
+      "unit": "U/L"
+    },
+
+    "lowDensityLipoproteinCholesterol": {
+      "translate": "低密度脂蛋白",
+      "value": 16,
+      "referenceRange": [0, 50],
+      "unit": "U/L"
+    },
+    "summary": "正常"
+  },
+  "CEAAFPCA199": {
+    "translate": "CEA+AFP+CA199",
+    "AlphaFetoprotein": {
+      "translate": "甲胎蛋白AFP",
+      "value": 2.59,
+      "referenceRange": [0, 8.78],
+      "unit": "ng/ml"
+    },
+    "carcinoembryonicAntigen": {
+      "translate": "癌胚抗原CEA",
+      "value": 2.59,
+      "referenceRange": [0, 8.78],
+      "unit": "ng/ml"
+    },
+    "cancerAntigen": {
+      "translate": "CA199",
+      "value": 2.59,
+      "referenceRange": [0, 8.78],
+      "unit": "ng/ml"
+    },
+    "summary": "正常"
+  }
+}
