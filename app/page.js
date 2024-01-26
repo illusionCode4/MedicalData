@@ -6,13 +6,16 @@ import { Button } from '@/components/ui/button';
 import verify from '@/components/verify';
 import useStore from '@/store/useStore';
 import { useRouter } from 'next/navigation';
+import HealthReport from '@/components/healthReport';
 //
 const JsonToYamlConverter = () => {
   const [Input, setInput] = useState('');
   const [Output, setOutput] = useState('');
   const [ver, setVer] = useState(false);
   const router = useRouter();
+  const [data, setData] = useState(null);
   const setJsonData = useStore((state) => state.setJsonData);
+  const jsonData = useStore((state) => state.jsonData);
 
   const convertJsonToYaml = () => {
     try {
@@ -36,7 +39,8 @@ const JsonToYamlConverter = () => {
   };
   const goToH = () => {
     setJsonData(Output);
-    router.push('/healthy');
+    // router.push('/healthy');
+    // setData(Output);
   };
 
   const clear = () => {
@@ -96,6 +100,8 @@ const JsonToYamlConverter = () => {
           readOnly
         />
       </div>
+
+      {jsonData && ver && <HealthReport data={jsonData} />}
     </>
   );
 };
