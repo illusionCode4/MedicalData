@@ -1,5 +1,28 @@
 const HealthReport = ({ data }) => {
+  function processObject(obj) {
+    for (const key in obj) {
+      if (typeof obj[key] === 'object') {
+        processObject(obj[key]);
+      } else if (
+        key === 'value' &&
+        obj['referenceRange'] &&
+        Array.isArray(obj['referenceRange'])
+      ) {
+        const value = obj[key];
+        const referenceRange = obj['referenceRange'];
+
+        if (value < referenceRange[0] && !obj['Tips']) {
+          obj['Tips'] = '偏低';
+        } else if (value > referenceRange[1] && !obj['Tips']) {
+          obj['Tips'] = '偏高';
+        }
+      }
+    }
+  }
+
+  processObject(data);
   console.log(data);
+
   return (
     <div className='mt-10'>
       {Object.keys(data).map((categoryKey) => (

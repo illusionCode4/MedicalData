@@ -3,23 +3,20 @@
     "translate": "身高体重",
     "weight": {
       "translate": "体重",
-      "value": 78,
+      "value": 378,
       "referenceRange": [0, 200],
-      "unit": "kg",
-      "Tips": "无异常"
+      "unit": "kg"
     },
     "height": {
       "translate": "身高",
-      "value": 178,
+      "value": 1,
       "referenceRange": [50, 300],
-      "unit": "cm",
-      "Tips": "无异常"
+      "unit": "cm"
     },
     "BMI": {
       "translate": "体重指数BMI",
-      "value": 19,
-      "referenceRange": [18.5, 24],
-      "Tips": "无异常"
+      "value": 129,
+      "referenceRange": [18.5, 24]
     },
     "summary": "小结"
   },
@@ -27,17 +24,15 @@
     "translate": "血压(内科常规)",
     "systolicPressure": {
       "translate": "收缩压",
-      "value": 94,
+      "value": 914,
       "referenceRange": [90, 140],
-      "unit": "mmHg",
-      "Tips": "无异常"
+      "unit": "mmHg"
     },
     "diastolicPressure": {
       "translate": "舒张压",
-      "value": 73,
+      "value": 473,
       "referenceRange": [60, 90],
-      "unit": "mmHg",
-      "Tips": "无异常"
+      "unit": "mmHg"
     },
     "summary": "无异常"
   },
